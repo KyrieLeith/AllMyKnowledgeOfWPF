@@ -1,0 +1,16 @@
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\bin\Debug\ui2_2.exe.config
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\bin\Debug\ui2_2.exe
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\bin\Debug\ui2_2.pdb
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\MainWindow.baml
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\MainWindow.g.cs
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\App.g.cs
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2_MarkupCompile.cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.g.resources
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.Properties.Resources.resources
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.csproj.GenerateResource.Cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.exe
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.pdb
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\ui2_2\ui2_2\obj\Debug\ui2_2.csprojResolveAssemblyReference.cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 2\ui2_2\ui2_2\bin\Debug\ui2_2.exe.config
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 2\ui2_2\ui2_2\obj\Debug\ui2_2.exe
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 2\ui2_2\ui2_2\obj\Debug\ui2_2.pdb
