@@ -1,0 +1,75 @@
+[
+  {
+    "Sender": "tori.wells@enron.com",
+    "Recipient": "gil.muhl@enron.com",
+    "Text": "Gil: 123\n\r\nCan you please send Mr. Lay up a hard copy?  We cannot print this.\r\n\r\nThanks - Tori",
+    "CType": {
+      "Mime": "text/plain",
+      "Charset": "us-ascii"
+    },
+    "Date": "2016-11-26T22:53:00",
+    "Folder": "_sent",
+    "Sent": false,
+    "Mid": 19164.11567457,
+    "Subject": "Re: Gil Muhl's AGA Presentation",
+    "Copy": [
+      "rosalee.fleming@enron.com",
+      "steven.kean@enron.com",
+      "mail@mail.com",
+      "test@mail.com"
+    ]
+  },
+  {
+    "Sender": "test123@enron.com",
+    "Recipient": "test456@enron.com",
+    "Text": "Testing the possibilities of cross-window binding in WPF.\r\n\r\nTest. Test. Test.",
+    "CType": {
+      "Mime": "text/plain",
+      "Charset": "us-ascii"
+    },
+    "Date": "2016-12-03T00:21:00",
+    "Folder": "_sent",
+    "Sent": false,
+    "Mid": 19164.45,
+    "Subject": "Test",
+    "Copy": [
+      "mail@mail.com",
+      "test@mail.com"
+    ]
+  },
+  {
+    "Sender": "tori.wells@enron.com",
+    "Recipient": "gil.muhl@enron.com",
+    "Text": "Gil: 123\n\r\nCan you please send Mr. Lay up a hard copy?  We cannot print this.\r\n\r\nThanks - Tori",
+    "CType": {
+      "Mime": "text/plain",
+      "Charset": "us-ascii"
+    },
+    "Date": "2016-11-26T09:53:00",
+    "Folder": "_sent",
+    "Sent": true,
+    "Mid": 5646.5465466,
+    "Subject": "Some test",
+    "Copy": [
+      "mail@mail.com",
+      null,
+      "user@mail.com"
+    ]
+  },
+  {
+    "Sender": "test@mail.com",
+    "Recipient": "rest@mail.com",
+    "Text": "WOW!\r\n\r\nIt works!",
+    "CType": null,
+    "Date": "2016-10-10T00:40:00",
+    "Folder": "_sent",
+    "Sent": true,
+    "Mid": 1552.45,
+    "Subject": "Testing",
+    "Copy": [
+      "user@mail.com",
+      "user1@mail.com",
+      "user2@mail.com"
+    ]
+  }
+]
