@@ -1,0 +1,58 @@
+﻿<Window x:Class="lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        Closing="Window_Closing">
+    <UniformGrid Margin="8" Columns="2" x:Name="itemGrid">
+        <UniformGrid.Resources>
+            <Style x:Key="ValueStyle" TargetType="FrameworkElement">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Sent}" Value="False">
+                        <Setter Property="Opacity" Value="0.5"/>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Sent}" Value="True">
+                        <Setter Property="Opacity" Value="1"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </UniformGrid.Resources>
+
+        <TextBlock Text="Отправитель: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Sender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Получатель: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Recipient, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Копия: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Copy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Тема: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Subject, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Текст: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Дата: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Date, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Папка: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Folder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Отправлено: " Style="{StaticResource ValueStyle}"/>
+        <CheckBox IsChecked="{Binding Sent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                  Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Mid: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Mid, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Mime: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Path=CType.Mime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Style="{StaticResource ValueStyle}"/>
+        <TextBlock Text="Charset: " Style="{StaticResource ValueStyle}"/>
+        <TextBox Text="{Binding Path=CType.Charset, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Style="{StaticResource ValueStyle}"/>
+    </UniformGrid>
+</Window>
