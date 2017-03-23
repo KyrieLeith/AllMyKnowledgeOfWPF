@@ -1,0 +1,70 @@
+﻿<Window x:Class="lab3_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Лабораторная 3_1" Height="350" Width="525" 
+        x:Name="window">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Background="White" BorderBrush="Navy" BorderThickness="1">
+            <MenuItem Header="_Файл" Tag="file" MouseMove="MenuItem_MouseMove">
+                <MenuItem Header="_Выбрать цвет фона" Tag="color" MouseMove="MenuItem_MouseMove">
+                    <MenuItem Header="_Белый" Tag="white" Click="MenuItem_Click_2" MouseMove="MenuItem_MouseMove"/>
+                    <MenuItem Header="_Синий" Tag="blue" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="_Желтый" Tag="yellow" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="_Красный" Tag="red" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="_Зелёный" Tag="green" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="_Оранжевый" Tag="orange" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="_Чёрный" Tag="black" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2"/>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Закрыть" Tag="close" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="_О программе" Tag="about" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_1"/>
+        </Menu>
+        <ToolBar Grid.Row="1">
+            <Button Tag="white" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11397270.png"></Image>
+            </Button>
+            <Button Tag="blue" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11360407.png"></Image>
+            </Button>
+            <Button Tag="yellow" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11395222.png"></Image>
+            </Button>
+            <Button Tag="red" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11338903.png"></Image>
+            </Button>
+            <Button Tag="orange" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11352215.png"></Image>
+            </Button>
+            <Button Tag="green" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11349143.png"></Image>
+            </Button>
+            <Button Tag="black" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_2">
+                <Image Source="http://savepic.ru/11357335.png"></Image>
+            </Button>
+            <Separator/>
+            <Button Tag="about" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click_1">
+                <Image Source="http://www.readyicons.com/IconSets/Sky_Light_%28Basic%29/32x32-about_(info).png"></Image>
+            </Button>
+            <Separator/>
+            <Button Tag="close" MouseMove="MenuItem_MouseMove" Click="MenuItem_Click">
+                <Image Source="http://www.readyicons.com/IconSets/Sky_Light_%28Basic%29/32x32-exit.png"></Image>
+            </Button>
+        </ToolBar>
+        <StatusBar Grid.Row="3" DockPanel.Dock="Bottom">
+            <TextBlock x:Name="statbar1" Text="Программа запущена" />
+            <StatusBarItem HorizontalAlignment="Right" >
+                <TextBlock Text="" />
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
