@@ -1,0 +1,13 @@
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\bin\Debug\lab5_1.exe.config
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\bin\Debug\lab5_1.exe
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\bin\Debug\lab5_1.pdb
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.csprojResolveAssemblyReference.cache
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\MainWindow.baml
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\MainWindow.g.cs
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\App.g.cs
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1_MarkupCompile.cache
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.g.resources
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.Properties.Resources.resources
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.csproj.GenerateResource.Cache
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.exe
+C:\Users\eab14\Desktop\lab5\lab5_1\lab5_1\obj\Debug\lab5_1.pdb
