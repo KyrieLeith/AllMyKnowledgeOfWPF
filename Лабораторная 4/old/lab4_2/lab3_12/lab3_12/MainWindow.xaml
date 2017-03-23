@@ -1,0 +1,53 @@
+﻿<Window x:Class="lab3_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Графический редактор" Height="350" Width="525"
+        x:Name="wind">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="WhiteSmoke" BorderBrush="CadetBlue" BorderThickness="1">
+            <MenuItem Header="_О программе" Click="MenuItem_Click_1"/>
+            <MenuItem Header="_Закрыть" Click="MenuItem_Click"/>
+        </Menu>
+        <InkCanvas Grid.Row="1" Grid.Column="0" x:Name="inkcanvas1">     
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes x:Name="attrs" Color="Black" Height="10" Width="6"/>
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
+        <StackPanel Grid.Row="1" Grid.Column="1" Background="WhiteSmoke">
+            <Label Content="Выберите цвет кисти"/>
+            <ComboBox x:Name="combobox1" SelectedIndex="0" DropDownClosed="combobox1_DropDownClosed">
+                <ComboBoxItem Content="Black"/>
+                <ComboBoxItem Content="White"/>
+                <ComboBoxItem Content="Red"/>
+                <ComboBoxItem Content="Green"/>
+                <ComboBoxItem Content="Blue"/>
+                <ComboBoxItem Content="Yellow"/>
+                <ComboBoxItem Content="Orange"/>
+            </ComboBox>
+            <Separator/>
+            <Label Content="Выберите размер кисти: "/>
+            <Slider Height="25" Width="150" Minimum="1" Maximum="100" Value="20" x:Name="slider1" PreviewMouseUp="slider1_PreviewMouseUp"/>
+            <Label Content="Размер кисти: 20." x:Name="statbar3"/>
+            <Separator/>            
+            <Label Content="Выберите режим работы"/>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot1" Click="RadioButton_Boot1_Click" Tag="draw">Рисование</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot2" Click="RadioButton_Boot1_Click" Tag="edit">Редактирование</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot3" Click="RadioButton_Boot1_Click" Tag="del">Удаление</RadioButton>
+        </StackPanel>
+        <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" DockPanel.Dock="Bottom" Background="WhiteSmoke" BorderBrush="CadetBlue" BorderThickness="1">
+            <TextBlock Text="Выбранный режим работы: Рисование." x:Name="statbar2"/>
+            <StatusBarItem HorizontalAlignment="Right" >
+                <TextBlock Text="Выбранный цвет: Чёрный." x:Name="statbar1"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
