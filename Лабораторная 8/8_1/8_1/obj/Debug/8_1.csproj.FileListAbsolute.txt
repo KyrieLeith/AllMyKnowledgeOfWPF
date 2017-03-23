@@ -1,0 +1,14 @@
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\bin\Debug\8_1.exe.config
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\bin\Debug\8_1.exe
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\bin\Debug\8_1.pdb
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1.csprojResolveAssemblyReference.cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\MainWindow.g.cs
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\App.g.cs
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1_MarkupCompile.cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1_MarkupCompile.lref
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\MainWindow.baml
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1.g.resources
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\_8_1.Properties.Resources.resources
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1.csproj.GenerateResource.Cache
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1.exe
+C:\Users\Helen\Dropbox\WTF\Технология разработки пользовательских интерфейсов\Лабораторная 8\8_1\8_1\obj\Debug\8_1.pdb
