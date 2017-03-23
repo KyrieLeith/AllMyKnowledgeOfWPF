@@ -1,0 +1,40 @@
+﻿<Window x:Class="lab7_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType='Ellipse'>
+            <Style.Setters>
+                <Setter Property="Fill">
+                    <Setter.Value>
+                        <RadialGradientBrush>
+                            <GradientStop x:Name="gradient" Color="Red" Offset="-1"></GradientStop>
+                            <GradientStop Color="Yellow" Offset="1"></GradientStop>
+                        </RadialGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation    
+                        Storyboard.TargetName="el"
+                        Storyboard.TargetProperty="Fill.(RadialGradientBrush.GradientStops)[0].(GradientStop.Offset)"
+                        From="-1" To="0.9" Duration="0:0:5"
+                        AutoReverse="True" RepeatBehavior="Forever"
+                        />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Ellipse x:Name="el" Height="100" Width="100"/>
+    </Grid>
+</Window>
