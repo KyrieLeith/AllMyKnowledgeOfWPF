@@ -1,0 +1,40 @@
+[{
+  "Sender": "tori.wells@enron.com",
+  "Recipient": "gil.muhl@enron.com",
+  "Text": "Gil: 123\n\r\nCan you please send Mr. Lay up a hard copy?  We cannot print this.\r\n\r\nThanks - Tori",
+  "CType": {
+    "Mime": "text/plain",
+    "Charset": "us-ascii"
+  },
+  "Date": "2016-11-26T09:53:00",
+  "Folder": "_sent",
+  "Sent": true,
+  "Mid": 19164.11,
+  "Subject": "Re: Gil Muhl's AGA Presentation",
+  "Copy": [
+    "rosalee.fleming@enron.com",
+    "steven.kean@enron.com",
+    "mail@mail.com",
+    "test@mail.com"
+  ]
+},
+{
+  "Sender": "tori.wells@enron.com",
+  "Recipient": "gil.muhl@enron.com",
+  "Text": "Gil: 123\n\r\nCan you please send Mr. Lay up a hard copy?  We cannot print this.\r\n\r\nThanks - Tori",
+  "CType": {
+    "Mime": "text/plain",
+    "Charset": "us-ascii"
+  },
+  "Date": "2016-11-26T09:53:00",
+  "Folder": "_sent",
+  "Sent": true,
+  "Mid": 19164.11,
+  "Subject": "Re: Gil Muhl's AGA Presentation",
+  "Copy": [
+    "rosalee.fleming@enron.com",
+    "steven.kean@enron.com",
+    "mail@mail.com",
+    "test@mail.com"
+  ]
+}]

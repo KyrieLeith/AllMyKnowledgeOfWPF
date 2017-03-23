@@ -1,0 +1,38 @@
+﻿<Window x:Class="lab9.GridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab9"
+        xmlns:conv="clr-namespace:lab9.Converters"
+        mc:Ignorable="d"
+        Title="GridWindow" Height="600" Width="1300">
+    <Window.Resources>
+        <conv:SplitStringConverter x:Key="StringConverter"/>
+    </Window.Resources>
+    <Grid>
+        <ListView x:Name="grid">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="Отправитель" DisplayMemberBinding="{Binding Path=Sender}"/>
+                        <GridViewColumn Header="Получатель" DisplayMemberBinding="{Binding Path=Recipient}"/>
+                        <GridViewColumn Header="Тема" DisplayMemberBinding="{Binding Path=Subject}"/>
+                        <GridViewColumn Header="Текст" DisplayMemberBinding="{Binding Path=Text}"/>
+                        <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Path=Date}"/>
+                        <GridViewColumn Header="Папка" DisplayMemberBinding="{Binding Path=Folder}"/>
+                        <GridViewColumn Header="Статус" DisplayMemberBinding="{Binding Path = Sent, Converter={StaticResource StringConverter}, StringFormat={}{0}}"/>
+                        <GridViewColumn Header="Mid" DisplayMemberBinding="{Binding Path=Mid,  StringFormat={}{0:F2}}" />
+                        <GridViewColumn Header="Mime" DisplayMemberBinding="{Binding Path=CType.Mime}"/>
+                        <GridViewColumn Header="Charset" DisplayMemberBinding="{Binding Path=CType.Charset}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="MouseDoubleClick" Handler="ListViewItem_MouseDoubleClick" />
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</Window>
